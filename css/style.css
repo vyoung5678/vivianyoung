@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Condiment|Rouge+Script');
+.heading {
+font-family: 'Condiment', cursive;
+text-align:center;
+font-size: 30px;
+color: #6A50EB;
+}
+.heading1 {
+font-family: 'Rouge Script', cursive;
+font-size: 80px;
+}
+.paragraph {
+  color: #144b0a;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: left; 
+  }
+#classes {
+  font-size: 40px;
+  padding-top: 100px;
+}
+#parties {
+ font-size: 40px;
+ padding-left: 300px
+ }
+.links {
+ }
+a > img {
+  border: solid 5px #6A50EB;
+    }
+footer {
+  background-color: #D2EB50;
+  text-align: center;
+  margin-top:85px;
+  padding-top:35px;
+  padding-bottom: 35px;
+  font-size: 20px;
+}
+li {
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 150px;
+  }
+iframe {
+  padding-left: 500px
+ }
+.float {
+  float: left;
+  padding-right: 100px;
+}
+.float2 {
+  float: right;
+}
