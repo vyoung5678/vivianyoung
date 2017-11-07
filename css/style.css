@@ -5,49 +5,110 @@ text-align:center;
 font-size: 30px;
 color: #6A50EB;
 }
+ /* These headings will include text shadows */
 .heading1 {
 font-family: 'Rouge Script', cursive;
-font-size: 80px;
+font-size: 60px;
+text-align:center;
+color: #6A50EB;
+text-shadow: 8px 8px 8px rgb(20,75,10);
 }
+ /* Paragraphs should be highlighted with a background */
 .paragraph {
-  color: #144b0a;
+  color: rgb(20,75,10);
+  color: rgba(20,75,10,10);
+  background-color: rgb(210,235,80);
+  background-color: rgba(210,235,80,.5);
   font-family: Arial, sans-serif;
   font-size: 20px;
   text-align: left; 
   }
 #classes {
-  font-size: 40px;
   padding-top: 100px;
+  display: flex;
+  width: 100%;
 }
 #parties {
- font-size: 40px;
- padding-left: 300px
+ font-size: 30px;
+ padding-bottom: 100px;
+ display: flex;
+ width: 100%;
  }
-.links {
- }
+#navigation {
+  display: flex;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  text-align: center;
+     }
+.navigation {
+  display: flex;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-left: 250px;
+  text-align: center;
+  }
 a > img {
   border: solid 5px #6A50EB;
     }
 footer {
-  background-color: #D2EB50;
-  text-align: center;
+  background-color: rgb(210,235,80);
+  background-color: rgba(210,235,80,.5);
   margin-top:85px;
-  padding-top:35px;
-  padding-bottom: 35px;
+  padding-top:10px;
+  padding-bottom: 10px;
   font-size: 20px;
-}
-li {
-  display: inline-block;
-  font-size: 30px;
-  padding-left: 150px;
+  text-align: center;
+  margin-left: 650px;
+  margin-right: 650px;
   }
+   /* The menu bar */
+li {
+  display: inline-block; 
+  font-size: 30px;
+  padding-left: 15px;
+  text-align: center;
+  color: blue;
+  background-color: rgb(210,235,80);
+  background-color: rgba(210,235,80,.5);
+  margin-left: 100px;
+  }
+   /* This is the video */
 iframe {
   padding-left: 500px
  }
 .float {
   float: left;
-  padding-right: 100px;
+  padding-right: 200px;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-right: -100px;
 }
 .float2 {
   float: right;
+  padding-left: 200px;
+  }
+   /* The full page image */
+body {
+  background-image: url('../images/hawaiiannight4.jpg');
+  background-size: contain;
+  }
+.intro {
+  font-family: arial;
+  font-size: 30px;
+  background-color: rgb(210,235,80);
+  background-color: rgba(210,235,80,.5); 
+  color:#6A50EB;
+  }
+ h2 {
+   color: #6A50EB;
+   }
+.gettingstartedlink {
+  background-color: rgb(210,235,80);
+  background-color: rgba(210,235,80,.5);
+  color: rgb(20,75,10);
+  color: rgba(20,75,10,10);
 }
+ 
