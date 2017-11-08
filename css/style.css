@@ -40,7 +40,8 @@ text-shadow: 8px 8px 8px rgb(20,75,10);
   padding-bottom: 15px;
   padding-left: 30px;
   text-align: center;
-     }
+  margin-left: 300px;
+}
 .navigation {
   display: flex;
   width: 100%;
